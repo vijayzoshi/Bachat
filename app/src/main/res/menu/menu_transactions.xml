@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_whatsapp"
+        android:icon="@drawable/ic_whatsapp_dark"
+        android:title="@string/whatsapp"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_call"
+        android:icon="@drawable/baseline_call_24_dark"
+        android:title="@string/call"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_edit_phone"
+        android:title="@string/edit_phone_number"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_delete_all_transactions"
+        android:title="@string/delete_all_transactions"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_delete_customer"
+        android:title="@string/delete_customer"
+        app:showAsAction="never" />
+</menu> 

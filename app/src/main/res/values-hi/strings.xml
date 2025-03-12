@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">बचत</string>
+    <string name="language">भाषा</string>
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="help">मदद</string>
+    <string name="add_customer">ग्राहक जोड़ें</string>
+    <string name="search_customers">ग्राहक खोजें...</string>
+    <string name="customer_name">ग्राहक का नाम</string>
+    <string name="phone_number">फोन नंबर</string>
+    <string name="add">जोड़ें</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="add_transaction">लेन-देन जोड़ें</string>
+    <string name="amount">राशि</string>
+    <string name="description">विवरण</string>
+    <string name="credit">जमा</string>
+    <string name="debit">नामे</string>
+    <string name="balance">शेष: ₹%.2f</string>
+    <string name="call_us">कॉल करें</string>
+    <string name="text_us">मैसेज करें</string>
+    <string name="transaction_type">लेनदेन प्रकार</string>
+    <string name="transaction_time">लेन-देन का समय
+</string>
+    <string name="delete_all_data">सभी डेटा हटाएँ</string>
+    <string name="required">*आवश्यक</string>
+    <string name="optional">वैकल्पिक</string>
+
+    <string name="day_of_transaction">लेन-देन का दिन</string>
+    <string name="whatsapp">व्हाट्सऐप</string>
+    <string name="call">कॉल </string>
+    <string name="edit_phone_number">फ़ोन नंबर संपादित करें</string>
+    <string name="delete_customer">ग्राहक हटाएँ
+</string>
+    <string name="delete_all_transactions">सभी लेनदेन हटाएं
+</string>
+    <string name="net_amount">कुल राशि
+:</string>
+    <string name="please_enter_amount">कृपया एक राशि दर्ज करें
+</string>
+    <string name="transaction_added">लेन-देन जोड़ा गया</string>
+    <string name="edit_transaction">लेन-देन संपादित करें
+</string>
+    <string name="save">सेव करें</string>
+    <string name="transaction_updated">लेन-देन अद्यतन किया गया
+</string>
+    <string name="no_phone_number">कोई फ़ोन नंबर नहीं
+</string>
+    <string name="edit_phone">फ़ोन नंबर संपादित करें
+</string>
+    <string name="phone_updated">फ़ोन नंबर अपडेट किया गया</string>
+    <string name="delete_all_transactions_confirmation">सभी लेन-देन हटा दिए गए</string>
+    <string name="delete">मिटाना
+</string>
+    <string name="delete_customer_confirmation">ग्राहक हटा दिया गया
+</string>
+    <string name="all_transactions_deleted">सभी लेन-देन हटा दिए गए
+</string>
+    <string name="delete_transaction">लेन-देन हटाएँ
+</string>
+    <string name="delete_transaction_confirmation">क्या आप वाकई इस लेनदेन को हटाना चाहते हैं?</string>
+    <string name="transaction_deleted">लेन-देन हटा दिया गया
+</string>
+    <string name="given">दिया
+</string>
+    <string name="taken">लिया
+</string>
+    <string name="you_will_pay">आप भुगतान करेंगे</string>
+    <string name="they_will_pay">वे भुगतान करेंगे</string>
+    <string name="balance_label">
+बैलेंस </string>
+    <string name="are_you_sure_you_want_to_delete_all_customers_and_transactions_this_action_cannot_be_undone">क्या आप वाकई सभी ग्राहकों और लेनदेन को हटाना चाहते हैं?</string>
+</resources> 

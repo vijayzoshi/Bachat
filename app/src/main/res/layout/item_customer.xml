@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:clickable="true"
+    android:backgroundTint="@color/white"
+    android:focusable="true"
+    app:cardElevation="0.3dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <FrameLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical">
+            
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/customerInitialIcon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/primary_container"
+                app:shapeAppearanceOverlay="@style/CircleImageView" />
+                
+            <TextView
+                android:id="@+id/customerInitialText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+                android:textColor="@color/on_primary_container"
+                android:textStyle="bold"
+                tools:text="A" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/customerNameTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.Material3.TitleMedium" />
+
+
+        <TextView
+            android:id="@+id/customerBalanceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+            android:textStyle="bold"
+            tools:text="₹1,200.00" />
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView> 
